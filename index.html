@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <h2>Fantasy Generator</h2>
+        <ul class="nav-links">
+            <li><a href="./index.html">Name Generator</a></li>
+            <li><a href="./ability.html">Ability Generator</a></li>
+            <li><a href="./personality.html">Personality Generator</a></li>
+            <li><a href="./racenclass.html">race and class generator</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>Welcome to the Fantasy Name Generator!</h1>
+        <h2>To get started, let's choose a name. Click the button to generate a random name.</h2>
+
+        <div class="radio-group">
+            <input type="radio" name="maleorfemale" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="maleorfemale" id="female" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="maleorfemale" id="random" value="Random">
+            <label for="random">Random</label>
+        </div>
+
+        <input type="submit" id="generateButton" value="Generate!">
+        <p id="ReplaceableText">Click the button to generate a name!</p>
+        <!-- Next button starts hidden -->
+        <a href="./ability.html" id="NextButton" style="display:none;">Next</a>
+    </div>
+
+    <script src="generator.js"></script> 
+</body>
+</html>

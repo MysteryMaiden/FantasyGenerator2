@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ability Score Generator</title>  
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <h2>Fantasy Generator</h2>
+        <ul class="nav-links">
+            <li><a href="./index.html">Name Generator</a></li>
+            <li><a href="./ability.html">Ability Generator</a></li>
+            <li><a href="./personality.html">Personality Generator</a></li>
+            <li><a href="./racenclass.html">race and class generator</a></li>
+        </ul>
+    </nav>
+ 
+    <!-- Main content -->
+    <main>
+        <h1>Welcome to Ability Score Generator</h1>
+        <p>Just click the generate button to generate new ability scores</p>
+        
+        <ul>
+            <li class="abilities">
+                <strong>Strength (STR):</strong>
+                <p id="STR">Generating...</p>
+            </li>
+            <li class="abilities">
+                <strong>Dexterity (DEX):</strong>
+                <p id="DEX">Generating...</p>
+            </li>
+            <li class="abilities">
+                <strong>Constitution (CON):</strong>
+                <p id="CON">Generating...</p>
+            </li>
+            <li class="abilities">
+                <strong>Intelligence (INT):</strong>
+                <p id="INT">Generating...</p>
+            </li>
+            <li class="abilities">
+                <strong>Wisdom (WIS):</strong>
+                <p id="WIS">Generating...</p>
+            </li>
+            <li class="abilities">
+                <strong>Charisma (CHA):</strong>
+                <p id="CHA">Generating...</p>
+            </li>
+        </ul>
+
+        <button id="generateButton">Generate Ability Scores</button>
+        <a href="./personality.html" id="NextButton" style="display:none;">Next</a>
+    </main>
+
+    <script src="Rolls.js"></script>
+</body>
+</html>

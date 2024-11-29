@@ -1,0 +1,210 @@
+/* General body and page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8; /* Soft background color */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a4d73; /* Deep blue background for navbar */
+    color: white;
+    padding: 15px 30px;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+/* Main container styling */
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+/* Headings and text styling */
+h1 {
+    font-size: 2.5rem;
+    color: #2a4d73; /* Deep blue for headings */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Radio button styling */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0 10px;
+}
+
+.radio-group label {
+    font-size: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Button styling */
+#generateButton {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#generateButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Text displaying generated name */
+#ReplaceableText {
+    font-size: 1.2rem;
+    color: #2a4d73;
+    font-weight: bold;
+}
+
+/* Optional spacing adjustments */
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+#nextButton {
+    color: #2a4d73;
+    font-weight: bold;
+}
+#nextButton:active {
+    color: #2a4d73;
+    font-weight: bold;
+}
+
+---->
+
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.PersonalityList {
+    padding: 15px 25px; /* More padding for better spacing */
+    display: flex;
+    justify-content: space-between; /* Align label and value */
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Subtle divider */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.PersonalityList:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+}
+
+.PersonalityList:hover {
+    background-color: #f1f1f1; /* Light hover effect for better interactivity */
+}
+
+.PersonalityList ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+    border: 1px solid #ccc; /* Slightly darker border for contrast */
+    border-radius: 10px;
+    background-color: #fdfdfd; /* Subtle background for clarity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+    overflow: hidden; /* Round edges smoothly */
+} 
+
+.PersonalityList ul li {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee; /* Add dividers between items */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+.PersonalityList ul li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.PersonalityList ul li:hover {
+    background-color: #f5f5f5; /* Subtle hover background */
+    color: #333; /* Slightly darker text for focus */
+}
+
+.PersonalityList ul li.chosen {
+    background-color: #e8f4ff; /* Highlighted background for chosen item */
+    color: #007bff; /* Accent color for emphasis */
+    font-weight: bold;
+    border-left: 5px solid #007bff; /* Additional visual cue */
+}
+
+.ullist ul {
+    list-style: none;
+    padding-inline-start: 0 !important; /* Override inline-start padding */
+    padding: 0; /* Reset all padding */
+    margin: 25px 0;
+    border: 1px solid #ccc; /* Slightly darker border for contrast */
+    border-radius: 10px;
+    background-color: #fdfdfd; /* Subtle background for clarity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+    overflow: hidden; /* Round edges smoothly */
+}
